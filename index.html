@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiheb Nasri — Freelancer Portfolio</title>
+    <meta name="description" content="Welcome to Chiheb Nasri's portfolio. Freelancer based in Manouba, Tunisia. Engineering student passionate about creating amazing things.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">CN<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-bg-effects">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for opportunities
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Chiheb Nasri</span>
+            </h1>
+            <p class="hero-subtitle">
+                Freelancer — Engineering Student at Manouba School of Engineering, Tunisia.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    View My Work
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Get in Touch
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="5">0</span>+
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="3">0</span>+
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="10">0</span>+
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-image">
+                        <!-- CHANGE THIS: Replace with your photo -->
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>Your Photo</span>
+                        </div>
+                    </div>
+                    <div class="about-image-decoration"></div>
+                </div>
+                <div class="about-content">
+                    <h3 class="about-heading">
+                        A Passionate Freelancer Based in <span class="gradient-text">Manouba, Tunisia</span>
+                    </h3>
+                    <p class="about-text">
+                        I'm Chiheb Nasri, a freelancer and engineering student at Manouba School 
+                        of Engineering in Tunisia. I'm passionate about technology, problem-solving, 
+                        and building things that make a real impact.
+                    </p>
+                    <p class="about-text">
+                        When I'm not coding or studying, you can find me exploring new ideas, 
+                        working on freelance projects, and constantly pushing myself to learn 
+                        something new every day.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Manouba, Tunisia</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>chihebnasri2007@gmail.com</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Manouba School of Engineering</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Freelancer</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        Let's Connect <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I'm good at</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <!-- CHANGE THESE: Replace with your actual skills -->
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Skill One</h3>
+                    <p>Brief description of this skill and your experience level.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Skill Two</h3>
+                    <p>Brief description of this skill and your experience level.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Skill Three</h3>
+                    <p>Brief description of this skill and your experience level.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon"><i class="fas fa-camera"></i></div>
+                    <h3>Skill Four</h3>
+                    <p>Brief description of this skill and your experience level.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Skill Five</h3>
+                    <p>Brief description of this skill and your experience level.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Skill Six</h3>
+                    <p>Brief description of this skill and your experience level.</p>
+                    <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Things I've built</span>
+                <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <!-- CHANGE THESE: Replace with your actual projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder project-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Project Screenshot</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Live"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>Brief description of the project and what it does.</p>
+                        <div class="project-tags">
+                            <span>Tag 1</span>
+                            <span>Tag 2</span>
+                            <span>Tag 3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder project-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Project Screenshot</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Live"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p>Brief description of the project and what it does.</p>
+                        <div class="project-tags">
+                            <span>Tag 1</span>
+                            <span>Tag 2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder project-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Project Screenshot</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Live"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Three</h3>
+                        <p>Brief description of the project and what it does.</p>
+                        <div class="project-tags">
+                            <span>Tag 1</span>
+                            <span>Tag 2</span>
+                            <span>Tag 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's talk</span>
+                <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>Feel free to reach out if you want to collaborate, have a question, or just want to say hi! 👋</p>
+                    <div class="contact-methods">
+                        <a href="mailto:chihebnasri2007@gmail.com" class="contact-method">
+                            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="method-label">Email</span>
+                                <span class="method-value">chihebnasri2007@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/21696390914" class="contact-method" target="_blank">
+                            <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <span class="method-label">WhatsApp</span>
+                                <span class="method-value">+216 96 390 914</span>
+                            </div>
+                        </a>
+                        <a href="#" class="contact-method">
+                            <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span class="method-label">Location</span>
+                                <span class="method-value">Manouba, Tunisia</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <!-- CHANGE THESE: Add your social media links -->
+                        <a href="#" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="Discord"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">CN<span class="dot">.</span></a>
+                <p>&copy; 2026 Chiheb Nasri. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== CURSOR GLOW (decorative) ===== -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
